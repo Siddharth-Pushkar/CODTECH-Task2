@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enhanced To-Do List</h1>
+        <div class="input-section">
+            <input type="text" id="new-task" placeholder="Add a new task...">
+            <input type="date" id="task-date" placeholder="Due Date">
+            <button id="add-task">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+        <div class="progress-bar">
+            <div class="progress-bar-fill"></div>
+        </div>
+        <div class="notification" id="notification"></div>
+        <button id="clear-cache">Clear Cache</button>
+        <div>
+            <label for="dark-mode-toggle">Dark Mode</label>
+            <input type="checkbox" id="dark-mode-toggle">
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
